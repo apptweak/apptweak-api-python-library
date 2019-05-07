@@ -8,8 +8,10 @@ You shoud be at the same level as :
 - tests
 - setup.py
 - ...
-```bash
-python3 setup.py install --user
+```bash 
+pip install twine
+python setup.py sdist bdist_wheel
+twine upload dist/*
 ```
 This will give you access to the library from every script.
 
