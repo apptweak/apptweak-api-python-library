@@ -1,6 +1,6 @@
 
 # informations
-Allow to access the apptweak-io api easaly.
+Allow to access the apptweak-io api easily.
 
 ## Github
 https://github.com/apptweak/apptweak-api-python-library
@@ -12,7 +12,6 @@ https://www.apptweak.io/
 ## install
 `pip install apptweak --user`
 
-## use
 ## use
  ```python
 import apptweak
