@@ -17,14 +17,6 @@ You shoud be at the same level as :
 - setup.py
 - ...
 
-Every push, the version number in the setup.py must be changed
-
-```bash 
-pip install twine
-python setup.py sdist bdist_wheel
-twine upload dist/*
-```
-
 ## code structure
 
 ### \_\_init\_\_.py
