@@ -1,7 +1,7 @@
 # Apptweak-io python3 library
 
 ## push to pypi
-1. create the dist code `python setup.py sdist`
+1. create the dist code `python3 setup.py sdist bdist_wheel`
 2. Install twine `pip3 install twine --user`
 3. Upload to pipy `twine upload dist/*`
 For each upload, the num version should be unique !

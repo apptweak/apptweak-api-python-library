@@ -23,10 +23,9 @@ apptweak.API_KEY = "XYZ"
 app_id = "686449807"
 
 # print(device.end-point.__doc__) tells me whitch arguments and params the method needs
-end_point_documentation = apptweak.Ios.rankings.__doc__
+end_point_documentation = apptweak.Ios.power.__doc__
 
 # depending on your app id (params specific to the device.end-point)
-# here Ios.rankings
 params={"country":"us","start_date":"2018-10-03","end_date":"2018-10-10","device":"iphone"}
 
 # depending on your app id (if ios app_id choose the ios end-points)
