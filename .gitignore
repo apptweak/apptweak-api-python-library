@@ -2,5 +2,5 @@ apptweak.egg-info
 build
 dist
 .vscode
-
+.pypirc
 */__pycache__/*
