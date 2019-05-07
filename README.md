@@ -5,7 +5,7 @@ Navigate into the reportery.
 
 You shoud be at the same level as :
 - apptweak
-- test
+- tests
 - setup.py
 - ...
 ```bash
@@ -15,7 +15,7 @@ This will give you access to the library from every script.
 
 ## code structure
 
-### init.py
+### \_\_init\_\_.py
 Contains all the global variables
 
 ### plateform.py
