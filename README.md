@@ -8,15 +8,6 @@ For each upload, the num version should be unique !
 change the version in the setup.py file
 
 To put it in prod mode instead of dev, remove tab_build in setup.cfg
-## install package locally
-Navigate into the reportery.
-
-You shoud be at the same level as :
-- apptweak
-- tests
-- setup.py
-- ...
-
 ## code structure
 
 ### \_\_init\_\_.py
