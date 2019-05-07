@@ -3,7 +3,7 @@ import apptweak.ios
 import apptweak.android
 import apptweak.plateform
 
-__version__ = "1.0.0"
+__version__ = "1.0"
 
 
 #needed to acces apptweak.io data

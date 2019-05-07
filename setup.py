@@ -11,11 +11,11 @@ import json
 
 setup(
     name="apptweak",
-    version="1.0.0",
+    version="1.0.2",
     description="access the apptweak-io API in an easier way",
     url="https://github.com/apptweak/apptweak-api-python-library",
     author="apptweak",
-    author_email="",
+    author_email="romain@apptweak.com",
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3.7",
