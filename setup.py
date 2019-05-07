@@ -13,9 +13,9 @@ setup(
     name="apptweak",
     version="1.0.0",
     description="access the apptweak-io API in an easier way",
-    url="",
-    author="Romain Donck",
-    author_email="romaind@apptweak.com",
+    url="https://github.com/apptweak/apptweak-api-python-library",
+    author="apptweak",
+    author_email="",
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3.7",
