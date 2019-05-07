@@ -39,24 +39,23 @@ Make the actual fetch and verify some parmas
 
 ## use
  ```python
-import appwteak
+import apptweak
 
 # your apptweak-io API key
 apptweak.API_KEY = "XYZ"
 
 # the id of your app (ios or android)
-app_id = "1234"
+app_id = "686449807"
 
 # print(device.end-point.__doc__) tells me whitch arguments and params the method needs
 end_point_documentation = apptweak.Ios.rankings.__doc__
 
 # depending on your app id (params specific to the device.end-point)
 # here Ios.rankings
-params{"country":"us","device":"iphone","start_date":"2019-01-04","end_date":"2019-03-22", "type":"free"}
+params={"country":"us","start_date":"2018-10-03","end_date":"2018-10-10","device":"iphone"}
 
 # depending on your app id (if ios app_id choose the ios end-points)
-json_response = apptweak.Ios.rankings(application_id=app_id,params=params)
-
+json_response = apptweak.Ios.power(app_id,params)
  ```
 
 ## end-points
