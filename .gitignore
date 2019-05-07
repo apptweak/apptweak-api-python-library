@@ -1,0 +1,6 @@
+apptweak.egg-info
+build
+dist
+.vscode
+
+*/__pycache__/*
