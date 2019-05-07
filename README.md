@@ -5,6 +5,7 @@
 2. Install twine `pip3 install twine --user`
 3. Upload to pipy `twine upload dist/*`
 For each upload, the num version should be unique !
+change the version in the setup.py file
 
 To put it in prod mode instead of dev, remove tab_build in setup.cfg
 ## install package locally
