@@ -1,41 +1,16 @@
-# Apptweak-io python3 library
 
-## push to pypi
-1. create the dist code `python setup.py sdist`
-2. Install twine `pip3 install twine --user`
-3. Upload to pipy `twine upload dist/*`
-For each upload, the num version should be unique !
+# informations
+Allow to access the apptweak-io api easaly.
 
-To put it in prod mode instead of dev, remove tab_build in setup.cfg
-## install package locally
-Navigate into the reportery.
+## Github
+https://github.com/apptweak/apptweak-api-python-library
 
-You shoud be at the same level as :
-- apptweak
-- tests
-- setup.py
-- ...
-```bash
-python3 setup.py install --user
-```
-This will give you access to the library from every script.
+## Required
+You will need an api_key from 
+https://www.apptweak.io/
 
-## code structure
-
-### \_\_init\_\_.py
-Contains all the global variables
-
-### plateform.py
-contains every end-point
-
-### ios.py
-Redifine Ios specific end-point behaviour
-
-### android.py
-Redifine Android specific end-point behaviour
-
-### ressource.py
-Make the actual fetch and verify some parmas
+## install
+`pip install apptweak --user`
 
 ## use
  ```python
@@ -234,29 +209,4 @@ apptweak.Android.title_of_end-point(options,params_dict)
   - start_date
   - end_date
   - type
-
-## install package locally
-```bash
-python3 setup.py install --user
-```
-## construct package
-
-```bash
-python3 setup.py sdist
-```
-
-```bash
-python3 setup.py bdist_wheel
-```
-## tests
-
-```bash
-python3 -m unittest tests/plateform.py -v
-```
-```bash
-python3 -m unittest tests/apptweak.py -v
-```
-```bash
-python3 -m unittest tests/ressource.py -v
-```
 

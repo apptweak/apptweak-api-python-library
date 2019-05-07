@@ -7,12 +7,15 @@ import json
 
 
 # README = (HERE / "README.md").read_text()
-
+with open('DESCRIPTION.md') as f:
+    long_description = f.read()
 
 setup(
     name="apptweak",
-    version="1.0.2",
+    version="1.1.0",
     description="access the apptweak-io API in an easier way",
+    long_description=long_description,
+    long_description_content_type='text/markdown', # This is important!
     url="https://github.com/apptweak/apptweak-api-python-library",
     author="apptweak",
     author_email="romain@apptweak.com",
