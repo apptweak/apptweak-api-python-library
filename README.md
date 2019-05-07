@@ -8,12 +8,14 @@ You shoud be at the same level as :
 - tests
 - setup.py
 - ...
+
+Every push, the version number in the setup.py must be changed
+
 ```bash 
 pip install twine
 python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
-This will give you access to the library from every script.
 
 ## code structure
 
