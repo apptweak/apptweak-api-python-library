@@ -42,4 +42,5 @@ python3 -m unittest tests/apptweak.py -v
 python3 -m unittest tests/ressource.py -v
 ```
 ## Show downloads stats 
-(See the download stats)[https://pypistats.org/packages/apptweak]
+
+[See the download stats](https://pypistats.org/packages/apptweak)
