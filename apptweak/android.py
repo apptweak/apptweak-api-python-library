@@ -42,7 +42,10 @@ class Android(Plateform):
 
     @classmethod
     def reviews(self, application_id, params = {}):
-        raise Exception('Not implemented for this plateform')
+        Validation().params(params)
+        required = ['country']
+        Validation().require_params(params,required)
+        return self.applications(application_id, API_END_PATH['reviews'], params)
 
     @classmethod
     def top_displayed_reviews(self, application_id, sort_type,params):
