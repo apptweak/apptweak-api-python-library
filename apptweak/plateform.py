@@ -7,7 +7,7 @@ API_DOMAIN = 'https://api.apptweak.com'
 
 
 API_SUB_PATH = {
-    'applications':'applications','categorys':'categorys',
+    'applications':'applications','categories':'categories',
     'keywords':'keywords','reviews':'reviews','displayed':'displayed',
     'filter':'filter'
     }
@@ -568,7 +568,7 @@ class Plateform():
         """
         Validation().id(category_id)
         Validation().params(params)
-        url = urlConstruct([self.plateform_name, API_SUB_PATH['categorys'],str(category_id),API_SUB_PATH['keywords'],API_END_PATH['top']])
+        url = urlConstruct([self.plateform_name, API_SUB_PATH['categories'],str(category_id),API_SUB_PATH['keywords'],API_END_PATH['top']])
         return json.loads(Ressource.http_request(url, params))
 
     @classmethod
