@@ -43,7 +43,7 @@ class Android(Plateform):
     @classmethod
     def reviews(self, application_id, params = {}):
         Validation().params(params)
-        required = ['country']
+        required = ['language']
         Validation().require_params(params,required)
         return self.applications(application_id, API_END_PATH['reviews'], params)
 
