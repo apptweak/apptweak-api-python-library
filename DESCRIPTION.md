@@ -111,10 +111,11 @@ apptweak.Android.title_of_end-point(options,params_dict)
   - device
   - start_date
   - end_date
-### reviews ( Ios ! )
+### reviews
 - application_id
 - params
-  - country
+  - country ( Ios ! )
+  - language ( Android ! )
 ### searches
 - application_id
 - params
