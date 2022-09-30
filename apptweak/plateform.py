@@ -17,7 +17,7 @@ API_END_PATH = {
     'rankings':'rankings.json', 'power':'power.json', 'backlinks':'backlinks.json',
     'downloads':'downloads.json','revenues':'revenues.json',
     'searches':'searches.json','top':'top.json','reviews':'reviews.json',
-    'list':'list.json','stats':'stats.json','competitors':'competitors.json',
+    'list':'list.json','stats':'stats_v2.json','competitors':'competitors.json',
     'app-rankings':'app-rankings.json','trendings':'trendings.json',
     'volume-history':'volume-history.json'
     }
@@ -454,7 +454,7 @@ class Plateform():
     def keywords_stats(self, params):
         """
         This method returns the list of provided keywords
-        and evaluates the volume and competiton in a given country,
+        and evaluates the volume and difficulty in a given country,
         language and device.
 
         parameters
@@ -463,7 +463,7 @@ class Plateform():
             the params keys are :
 
             country : ISO Alpha-2, optional
-                defualt us
+                default us
 
             device : string, optional !!! IOS
                 default iphone
