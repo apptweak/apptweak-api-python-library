@@ -14,6 +14,7 @@ class Ressource(object):
         Validation().api_key()
         headers = {}
         headers['X-Apptweak-Key'] = apptweak.API_KEY
+        headers["User-Agent"] = "apptweak-api-python-library"
         params = urllib.parse.urlencode(params)
         if len(params) >= 1:
             url = url + '?' + params
