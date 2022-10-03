@@ -12,7 +12,7 @@ with open('DESCRIPTION.md') as f:
 
 setup(
     name="apptweak",
-    version="1.0.4",
+    version="2.0.0",
     description="access the apptweak-io API in an easier way",
     long_description=long_description,
     long_description_content_type='text/markdown', # This is important!
